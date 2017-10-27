@@ -1,1 +1,6 @@
---
+---
+rpm_yum_packages: [ "ntp", "nscd" ]
+ubuntu_apt_packages: [ "ntp", "nscd" ]
+
+
+

@@ -11,7 +11,7 @@
    pkg: " {{ item }}"
    state: present
    force: yes
- with_items: "{{ ubuntu_apt_packages }}"
+ with_items: "{{ rpm_yum_packages }}"
  when: ansible_os_family == "Debian"
 
 
